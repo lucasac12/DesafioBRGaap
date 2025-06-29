@@ -1,0 +1,50 @@
+# Arquivos do Visual Studio / .NET
+backend/bin/
+backend/obj/
+backend/*/bin/
+backend/*/obj/
+backend/.vs/
+backend/*.user
+backend/*.suo
+backend/*.cache
+backend/*.log
+
+# Entity Framework
+backend/Data/
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+# Frontend Node.js
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/dist/
+frontend/webapp/
+
+# Build outputs
+backend/wwwroot/
+frontend/build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime
+*.pid
+*.pid.lock
+
+# Temporary files
+*.tmp
+*.temp

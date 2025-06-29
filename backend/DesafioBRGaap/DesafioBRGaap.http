@@ -1,0 +1,7 @@
+@DesafioBRGaap_HostAddress = http://localhost:5137
+
+GET {{DesafioBRGaap_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
